@@ -1,0 +1,95 @@
+// {
+//     "defaultSeverity": "error",
+//     "extends": [
+//         "tslint:recommended"
+//     ],
+//     "jsRules": {},
+//     "rules": {},
+//     "rulesDirectory": []
+// }
+
+{
+    "exclude": [
+      "node_modules"
+    ],
+    "rules": {
+      "member-access": [
+        true
+      ],
+      "class-name": true,
+      "comment-format": [
+        false,
+        "check-space"
+      ],
+      "curly": true,
+      "indent": [
+        true,
+        "tabs"
+      ],
+      "no-angle-bracket-type-assertion": true,
+      "no-consecutive-blank-lines": true,
+      "no-console": [true, "log", "error"],
+      "no-debugger": true,
+      "no-duplicate-key": true,
+      "no-duplicate-variable": true,
+      "no-empty": true,
+      "no-eval": true,
+      "no-internal-module": false,
+      "no-invalid-this": false,
+      "no-switch-case-fall-through": true,
+      "no-trailing-whitespace": true,
+      "no-unreachable": true,
+      "no-unused-new": true,
+      "no-unused-expression": true,
+      "no-unsafe-finally": true,
+      "no-use-before-declare": true,
+      "no-var-keyword": false,
+      "one-line": [
+        true,
+        "check-catch",
+        "check-finally",
+        "check-else",
+        "check-open-brace",
+        "check-whitespace"
+      ],
+      "quotemark": [
+        true,
+        "double"
+      ],
+      "semicolon": [
+        true
+      ],
+      "triple-equals": [
+        true,
+        "allow-null-check"
+      ],
+      "typedef-whitespace": [
+        true,
+        {
+          "call-signature": "nospace",
+          "index-signature": "nospace",
+          "parameter": "nospace",
+          "property-declaration": "nospace",
+          "variable-declaration": "nospace"
+        }
+      ],
+      "use-isnan": true,
+      "variable-name": [
+        true,
+        "check-format",
+        "ban-keywords"
+      ],
+      "whitespace": [
+        true,
+        "check-branch",
+        "check-decl",
+        "check-separator",
+        "check-type"
+      ],
+      "use-strict": [
+        false,
+        "check-module",
+        "check-function"
+      ]
+    }
+  }

@@ -1,0 +1,48 @@
+{
+  "name": "angular-starter-kit",
+  "version": "1.0.0",
+  "description": "\"An Angular Starter Kit\"",
+  "main": "index.html",
+  "scripts": {
+    "lint": "tslint -p src",
+    "prestart": "node buildScripts/startMessage.js",
+    "start": "npm-run-all --parallel security-check start-server",
+    "start-server": "webpack-dev-server",
+    "security-check": "nsp check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhoyal/angular-starter-kit.git"
+  },
+  "author": "Joseph Hoyal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhoyal/angular-starter-kit/issues"
+  },
+  "homepage": "https://github.com/jhoyal/angular-starter-kit#readme",
+  "devDependencies": {
+    "@types/angular": "^1.6.34",
+    "@types/jasmine": "^2.6.2",
+    "@types/lodash": "^4.14.80",
+    "chalk": "^2.3.0",
+    "jasmine": "^2.8.0",
+    "karma": "^1.7.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-mocha-reporter": "^2.2.5",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-webpack": "^2.0.5",
+    "lodash": "^4.17.4",
+    "npm-run-all": "^4.1.1",
+    "nsp": "^2.8.1",
+    "ts-loader": "^3.0.5",
+    "tslint": "^5.8.0",
+    "tslint-loader": "^3.5.3",
+    "typescript": "^2.5.3",
+    "webpack": "^3.7.1",
+    "webpack-dev-server": "^2.9.1",
+    "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "angularjs": "0.0.1"
+  }
+}
