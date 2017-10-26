@@ -8,7 +8,8 @@
     "prestart": "node buildScripts/startMessage.js",
     "start": "npm-run-all --parallel security-check start-server",
     "start-server": "webpack-dev-server",
-    "security-check": "nsp check"
+    "security-check": "nsp check", 
+    "test": "karma start"
   },
   "repository": {
     "type": "git",
